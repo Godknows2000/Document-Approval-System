@@ -1,0 +1,11 @@
+﻿@page "{id}"
+@model EditModel
+@section sidebar{
+    <div></div>
+}
+<form method="post">
+    <partial name="Edit.Partial" model="Model.SelectedUser" />
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

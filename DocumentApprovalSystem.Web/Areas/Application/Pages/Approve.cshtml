@@ -1,0 +1,115 @@
+﻿@page "{id}"
+@model ApproveModel
+@section sidebar{
+    <div></div>
+}
+<div class="card">
+    <form method="post" enctype="multipart/form-data" class="form-floating g-3 needs-validation">
+        <div class="card-body">
+            @if (!User.IsEmployee())
+            {
+                <div class="row mb-3">
+                    <label class="col-md-4">Employee</label>
+                    <div class="col-md-8">@Model.DocRequest.Employee?.FullName</div>
+                </div>
+            }
+            <div class="row mb-3 fw-bold">
+                <label class="col-md-4">Document Name</label>
+                <div class="col-md-8">@Model.DocRequest.DocType?.Name</div>
+            </div>
+            <div class="row mb-3 fw-bold">
+                <label class="col-md-4">Department</label>
+                <div class="col-md-8">@Model.DocRequest.Department?.Name</div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-md-4">Document Approval Request status</label>
+                <div class="col-md-8">@Model.DocRequest.Status.Humanize()</div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-md-4">Document Approval Request Comments</label>
+                <div class="col-md-8">@Model.DocRequest.RequestComments</div>
+            </div>
+            <div class="mb-3 mt-2">
+                <label for="formFile" class="form-label">Upload Approved Document</label>
+                <input class="form-control" asp-for="ApprovedThumbnail" type="file" id="formFile">
+            </div>
+            @if (User.IsTechSupport())
+            {
+                <form method="post">
+                    <div class="mb-2">
+                        <label class="mb-0">Comments</label>
+                        <textarea rows="3" name="Comments" class="form-control"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <a asp-page="./Details" asp-route-id="@Model.DocRequest.Id" class="btn btn-sm btn-dark mt-2 ms-3"><i class="fa-solid fa-xmark"></i> Back</a>
+                        <button class="btn btn-sm btn-success mt-2"><i class="fa-solid fa-circle-check"></i> Approve</button>
+                    </div>
+                </form>
+            }
+            <div class="row">
+                <div class="col">
+                    @if (User.IsEmployee() && string.IsNullOrWhiteSpace(Model.DocRequest.SignatureUrl))
+                    {
+                        <div class="card-body" id="signat">
+                            <div>Sign in this box</div>
+                            <div id="canvas" class="rounded">
+                                <canvas class="roundCorners" id="newSignature" style="position: relative; margin: 0; padding: 0; border: 1px solid #c4caac;"></canvas>
+                            </div>
+                            <div class="btn-group btn-group-sm">
+                                <button type="button" class="btn btn-outline-success" onclick="signatureSave()">Preview signature</button>
+                                <button type="button" class="btn btn-outline-danger" onclick="signatureClear()">Clear signature</button>
+                            </div>
+                            <div class="collapse" id="imgDiv">
+                                <form method="post" asp-page-handler="Sign">
+                                    <input type="hidden" id="dataUrl" name="Signature" />
+                                    <div class="mt-2 mb-1">Saved Image</div>
+                                    <img id="saveSignature" alt="Saved image png" />
+                                    <div class="">
+                                        <button class="btn btn-success btn-sm">Save and continue</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="col">
+                    @if (User.IsTechSupport() && string.IsNullOrWhiteSpace(Model.DocRequest.SecretarySignatureUrl))
+                    {
+                        <div class="card-body" id="signat">
+                            <div>Sign in this box</div>
+                            <div id="canvas" class="rounded">
+                                <canvas class="roundCorners" id="newSignature" style="position: relative; margin: 0; padding: 0; border: 1px solid #c4caac;"></canvas>
+                            </div>
+                            <div class="btn-group btn-group-sm">
+                                <button type="button" class="btn btn-outline-success" onclick="signatureSave()">Preview signature</button>
+                                <button type="button" class="btn btn-outline-danger" onclick="signatureClear()">Clear signature</button>
+                            </div>
+                            <div class="collapse" id="imgDiv">
+                                <form method="post" asp-page-handler="Sign">
+                                    <input type="hidden" id="dataUrl" name="SecretarySignature" />
+                                    <div class="mt-2 mb-1">Saved Image</div>
+                                    <img id="saveSignature" alt="Saved image png" />
+                                    <div class="">
+                                        <button class="btn btn-success btn-sm">Save and continue</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+@section scripts {
+    <script src="~/js/signature.js"></script>
+    <script>
+        $(document).ready(function () {
+            var hasSignature = '@(!string.IsNullOrWhiteSpace(Model.DocRequest.SecretarySignatureUrl))';
+            console.log(hasSignature);
+            if (hasSignature == 'False') {
+                signatureCapture();
+            }
+        });
+    </script>
+}

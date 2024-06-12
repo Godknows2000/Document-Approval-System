@@ -1,0 +1,51 @@
+﻿@page
+@model ActivateModel
+@{
+    //Layout = "/Pages/Shared/_BlankLayout.cshtml";
+}
+<div class="row">
+    <div class="col-md-4">
+        @*<div class="text-center mb-3"><img src="~/logo.png" style="height:64px" /></div>*@
+        <section>
+            @if (Model.IsActivated)
+            {
+                <div class="text-center mt-3">
+                    <h5 class="text-danger">Account already activated</h5>
+                    <a class="btn btn-primary" asp-page="Login">Go to Login page <i class="fa fa-sign-in-alt"></i></a>
+                </div>
+            }
+            else
+            {
+                <form method="post">
+                    <div class="card">
+                        <div class="card-header"></div>
+                        <div class="card-body">
+                            <div class="mb-3 form-floating">
+                                <input asp-for="Input.Email" readonly class="form-control" />
+                                <label asp-for="Input.Email">Login ID</label>
+                                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3 form-floating">
+                                <input asp-for="Input.Password" class="form-control" />
+                                <label asp-for="Input.Password">Set a password</label>
+                                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3 form-floating">
+                                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                                <label asp-for="Input.ConfirmPassword">Confirm password</label>
+                                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-success"> Activate account <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            }
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

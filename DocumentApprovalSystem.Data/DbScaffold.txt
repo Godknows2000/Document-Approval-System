@@ -1,0 +1,1 @@
+﻿scaffold-dbcontext "Host=localhost;Database=DocumentApprovalDb;Username=postgres;Password=Gody" Npgsql.EntityFrameworkCore.PostgreSQL -namespace DocumentApprovalSystem.Data -project DocumentApprovalSystem.Data -force -outputDir Entities

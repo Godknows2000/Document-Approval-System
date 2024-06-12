@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IT Document Approval System</title>
+    <partial name="_Styles" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3 fixed-top">
+            <div class="container fluid">
+                <a class="navbar-brand rounded-full text-white" asp-area="" asp-page="/Index">
+                    <img src="/images/img.png" width="50" height="50" style="border-radius: 50% !important;" />
+                    IT Document Approval System
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" asp-area="" asp-page="/Index"><i class="fa-solid fa-house "></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-page="/HowItWorks"><i class="fa-solid fa-circle-question "></i> How it works</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid  d-print-none">
+        <main role="main" class="pb-3">
+            @if (ViewData["PageTitle"] != null)
+            {
+                <h3 class="fw-normal pt-3 @(ViewBag.PageSubTitle!=null ?"mb-0":"mb-2")">@ViewData["PageTitle"]</h3>
+            }
+            @if (ViewBag.PageSubTitle != null)
+            {
+                <h4 class="fw-light @(ViewBag.PageTitle==null ?"mt-5":"")">@ViewData["PageSubTitle"]</h4>
+            }
+            @RenderBody()
+        </main>
+    </div>
+@*     <footer class="border-top footer text-muted bg-dark text-white-50">
+        <partial name="_Footer" />
+    </footer> *@
+    <partial name="_Scripts" />
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

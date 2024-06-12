@@ -1,0 +1,363 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-top: 57px;
+    background-color: #f7f7f0;
+    scroll-behavior: smooth;
+}
+
+main {
+    min-height: 75vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.footer {
+    line-height: normal !important;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: 25vh;
+}
+
+.nav-item {
+    padding: 0em .7em;
+    margin: 0 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: none;
+    white-space: nowrap;
+}
+
+    .nav-item.active {
+        background: #ced4da;
+        border-radius: 4px;
+        color: #0077cc !important;
+    }
+
+.nav-pills .nav-item.active .nav-link {
+    color: #0077cc !important;
+}
+
+.nav-item.active .nav-link {
+    color: white !important;
+}
+
+.nav-pills .nav-item {
+    padding: 0em;
+    margin-bottom: 2px;
+}
+
+.nav-link {
+    color: black;
+}
+
+    .nav-link:hover {
+        text-decoration: none;
+    }
+
+.nav-item:hover {
+    background: #e6e6e6;
+    border-radius: 4px;
+}
+
+.navbar-nav .nav-item.active {
+    background: #000;
+    border-radius: 4px;
+}
+
+
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0077cc;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+.footer {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.side-navbar {
+    width: 240px;
+    min-height: 50vh;
+    position: fixed;
+    margin-left: -300px;
+    background: rgb(248,249,250);
+    background: linear-gradient(0deg, rgb(0, 0, 0, 0) 0%, rgba(248,249,250,1) 100%);
+    transition: 0.5s;
+    border-right: 1px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(0deg, rgb(0, 0, 0, 0) 0%, rgba(0,0,0,.2) 100%);
+}
+
+    .side-navbar.nav-link:active,
+    .side-navbar.nav-link:focus,
+    .side-navbar.nav-link:hover {
+        background-color: #ffffff26;
+    }
+
+.border-gradient {
+    border-right: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+/* for main section */
+.active-cont {
+    margin-left: 240px;
+}
+
+#menu-btn {
+}
+
+footer h4 {
+    text-transform: uppercase;
+}
+
+.text-ellipsized {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: none;
+    white-space: nowrap;
+}
+
+.card {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    margin-bottom: 2rem !important;
+    border-radius: .1rem;
+}
+
+.card-footer {
+    text-align: right;
+    background: #f8f9fa;
+}
+
+.card-header {
+    background: #939faa;
+    color: white;
+    padding: .3rem;
+}
+
+/* Multi-step form progress bar */
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+    width: 100%;
+    text-align: center;
+}
+
+    #progressbar li {
+        list-style-type: none;
+        color: rgb(51, 51, 51);
+        text-transform: uppercase;
+        font-size: .75em;
+        width: 25%;
+        float: left;
+        position: relative;
+    }
+
+        #progressbar li:before {
+            content: counter(step);
+            counter-increment: step;
+            width: 20px;
+            line-height: 20px;
+            display: block;
+            font-size: 10px;
+            color: #333;
+            background: white;
+            border-radius: 3px;
+            margin: 0 auto 5px auto;
+        }
+        /*progressbar connectors*/
+        #progressbar li:after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: white;
+            position: absolute;
+            left: -50%;
+            top: 9px;
+            z-index: -1; /*put it behind the numbers*/
+        }
+
+        #progressbar li:first-child:after {
+            /*connector not needed before the first step*/
+            content: none;
+        }
+        /*marking active/completed steps green*/
+        /*The number of the step and the connector before it = green*/
+        #progressbar li.active:before, #progressbar li.active:after {
+            background: #212529;
+            color: white;
+        }
+
+
+.v-progressbar {
+    padding: 0;
+    counter-reset: step;
+}
+
+    .v-progressbar li {
+        list-style-type: none;
+        display: block;
+    }
+
+        .v-progressbar li:before {
+            content: counter(step);
+            counter-increment: step;
+            width: 20px;
+            color: #000;
+            display: inline-block;
+            background: #eee;
+            border-radius: 3px;
+            margin: 0 .5em 0 0;
+            text-align: center;
+        }
+        /*progressbar connectors*/
+        .v-progressbar li:after {
+            content: '';
+            width: 4px;
+            margin-left: 8px;
+            height: 20px;
+            background: #eee;
+            display: block;
+            z-index: -1; /*put it behind the numbers*/
+        }
+
+        .v-progressbar li:last-child:after {
+            /*connector not needed before the first step*/
+            content: none;
+        }
+        /*marking active/completed steps green*/
+        /*The number of the step and the connector before it = green*/
+        .v-progressbar li.active:before, .v-progressbar li.active:after {
+            background: #212529;
+            color: white;
+        }
+
+a.btn {
+    text-decoration: none;
+}
+
+    a.btn:hover {
+        text-decoration: none;
+    }
+
+.form-label {
+    color: #6c757d !important;
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+}
+
+.field-validation-error {
+    font-size: smaller;
+    color: #dc3545;
+}
+
+h5, h6 {
+    font-weight: lighter;
+}
+
+.text-ellipsis-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card {
+    background-color: #eee !important;
+    border-radius: .2em;
+    border: 1px solid #007bff;
+    margin-bottom: 5em;
+}
+
+.card-footer {
+    text-align: right;
+}
+.background {
+    background-image: url('/images/img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 88vh;
+    min-width: 200vh;
+}
+.home {
+    background: rgba(255, 255, 255, 0.7);
+    min-height: 88vh;
+    min-width: 210vh;
+}

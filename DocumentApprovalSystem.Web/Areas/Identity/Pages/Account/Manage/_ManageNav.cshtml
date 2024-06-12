@@ -1,0 +1,14 @@
+﻿@inject SignInManager<User> SignInManager
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+    <div class="list-group-flush list-group mt-1" style="width:100%">
+        <a class="@ManageNavPages.IndexNavClass(ViewContext) list-group-item list-group-item-light justify-content-between d-flex align-items-center bg-light" asp-page="./Index">Profile</a>
+        <a class="@ManageNavPages.ChangePasswordNavClass(ViewContext) list-group-item list-group-item-light justify-content-between d-flex align-items-center bg-light" id="change-password" asp-page="./ChangePassword">Password</a>
+        @if (hasExternalLogins)
+        {
+            <a class="@ManageNavPages.ExternalLoginsNavClass(ViewContext) list-group-item list-group-item-light justify-content-between d-flex align-items-center bg-light" id="external-login" asp-page="./ExternalLogins">External logins</a>
+        }
+        <a class="@ManageNavPages.TwoFactorAuthenticationNavClass(ViewContext) list-group-item list-group-item-light justify-content-between d-flex align-items-center bg-light" asp-page="./TwoFactorAuthentication">Two-factor authentication</a>
+        <div>&nbsp;</div>
+    </div>

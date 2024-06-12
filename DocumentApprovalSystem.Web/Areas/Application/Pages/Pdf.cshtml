@@ -1,0 +1,134 @@
+﻿@page "{id}"
+@{
+    Layout = "_PdfLayout";
+}
+@model PdfModel
+<div style="overflow:auto">
+    <div class="float-start">
+        <img src="~/images/wcyber.png" />
+    </div>
+</div>
+<hr />
+<div style="overflow: auto; padding: 12px 15px;">
+    <div class="float-start mb-3" style="max-width:300px">
+        <h1>DOCUMENT APPROVAL REQUEST APPLICATION</h1>
+        <div class="form-group">
+            <div class="text-muted">Employee</div>
+            <div class="h5 mb-1">@Model.DocRequest.Employee?.FullName</div>
+            @if (!string.IsNullOrWhiteSpace(Model.DocRequest.Employee?.Address))
+            {
+                <div>@Model.DocRequest.Employee.Address</div>
+            }
+            <div class="h5"><small>Account ID:</small> @Model.DocRequest.Employee?.AccountId</div>
+        </div>
+    </div>
+    <div class="float-end p-3">
+        <div id="qrCode"></div>
+        <div class="small text-center">Scan to verify</div>
+    </div>
+    <div class="float-end text-end mb-3">
+        <div class="form-group">
+            <div class="text-muted">Document Approval Request number</div>
+            <div class="h4 mb-1">@Model.DocRequest.Number</div>
+            <div>@DateTime.Now.ToShortDateString()</div>
+        </div>
+        <div>
+            <div class="text-muted">Document Approval request date</div>
+            <div>@Model.DocRequest.CreationDate.ToShortDateString()</div>
+        </div>
+    </div>
+</div>
+<hr />
+
+
+@if (!string.IsNullOrWhiteSpace(Model.DocRequest.RequestComments))
+{
+    <div class="fw-bold">@Model.DocRequest.RequestComments</div>
+}
+<table class="table table-light table-striped table-sm styled-table">
+    <tbody>
+        <tr class="table-active">
+            <th class="text-start">Comments</th>
+            <th class="text-end">Value</th>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Document Name</td>
+            <td class="text-end">@Model.DocRequest.DocType?.Name</td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td class="text-end">@Model.DocRequest.Department?.Name</td>
+        </tr>
+        <tr>
+            <td>Creation date</td>
+            <td class="text-end">@Model.DocRequest.CreationDate.ToString("dd/MMM/yyyy")</td>
+        </tr>
+    </tbody>
+</table>
+@if (!string.IsNullOrWhiteSpace(Model.DocRequest.SignatureUrl))
+{
+    <div class="mt-2" style="margin-top:30px;">
+        <div>@Model?.DocRequest?.Employee?.Name</div>
+        <div><img style='margin-bottom:1px;height:56px;' src='@Model.DocRequest.SignatureUrl' /></div>
+        <label>Employee signature</label>
+    </div>
+}
+@if (!string.IsNullOrWhiteSpace(Model.DocRequest.SignatureUrl))
+{
+    <div class="mt-2" style="margin-top:30px;">
+        <div>@Model?.DocRequest?.Employee?.Name</div>
+        <div><img style='margin-bottom:1px;height:56px;' src='@Model.DocRequest.SignatureUrl' /></div>
+        <label>Permanent Secretary signature</label>
+    </div>
+}
+
+@section styles{
+    <style>
+
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+            .styled-table thead tr {
+                background-color: #009879;
+                color: #ffffff;
+                text-align: left;
+            }
+
+            .styled-table th,
+            .styled-table td {
+                padding: 12px 15px;
+            }
+
+            .styled-table tbody tr {
+                border-bottom: 1px solid #dddddd;
+            }
+
+                .styled-table tbody tr:nth-of-type(even) {
+                    background-color: #f3f3f3;
+                }
+
+                .styled-table tbody tr:last-of-type {
+                    border-bottom: 2px solid #009879;
+                }
+    </style>
+}
+
+@section scripts{
+    <script type="text/javascript" src="~/lib/qrcode/qrcode.min.js"></script>
+    <script type="text/javascript">
+        new QRCode(document.getElementById("qrCode"),
+            {
+                text: "@Model.RequestBaseUrl/Verify/@(Model.DocRequest.Number)",
+                width: 96,
+                height: 96
+            });
+    </script>
+
+}

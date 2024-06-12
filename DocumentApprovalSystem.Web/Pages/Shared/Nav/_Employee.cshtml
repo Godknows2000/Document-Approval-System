@@ -1,0 +1,12 @@
+﻿@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+}
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item @(area=="account"?"active":"")">
+        <a class="nav-link text-dark" asp-area="Account" asp-page="/Index"><i class="fa-solid fa-house"></i> Home</a>
+    </li>
+    <li class="nav-item @(area=="application"?"active":"")">
+        <a class="nav-link text-dark" asp-area="Application" asp-page="/Add"><i class="fa-solid fa-folder-open"></i> Submit Doc for approval</a>
+    </li>
+</ul>

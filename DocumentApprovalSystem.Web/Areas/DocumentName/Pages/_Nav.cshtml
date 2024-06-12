@@ -1,0 +1,15 @@
+﻿@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+}
+@if (User.IsTechSupport())
+{
+    <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item @(area.Contains("users")?"active":"")">
+                <a asp-area="Users" asp-page="/Index" class="nav-link"><i class="fa fa-circle-user me-2"></i>
+                    Documents
+                </a>
+        </li>
+    </ul>
+}
+

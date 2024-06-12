@@ -1,0 +1,33 @@
+﻿<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+<script src="~/lib/knockout/knockout-latest.min.js" asp-append-version="true"></script>
+<script src="~/lib/select2/js/select2.full.min.js" asp-append-version="true"></script>
+<script src="~/lib/choice/choices.min.js" asp-append-version="true"></script>
+<script src="~/lib/font-awesome/js/all.js"></script>
+<script type="text/javascript">
+    function applyChoices() {
+        const sorting = document.querySelector('.Choices');
+        const commentSorting = document.querySelector('.Choices');
+        const sortingchoices = new Choices(sorting, {
+            placeholder: false,
+            itemSelectText: ''
+        });
+        // Trick to apply your custom classes to generated dropdown menu
+        let sortingClass = sorting.getAttribute('class');
+
+    }
+
+    function applySelect2() {
+        setTimeout(function() {
+            $('.select2').select2({
+                theme: "bootstrap-5",
+                width: $(this).data('width') ? $(this).data('width') : $(this).hasClass('w-100') ? '100%' : 'style',
+                placeholder: $(this).data('placeholder'),
+            })
+        }, 500);
+    }
+    $(document).ready(function() {
+        applySelect2();
+    });
+</script>

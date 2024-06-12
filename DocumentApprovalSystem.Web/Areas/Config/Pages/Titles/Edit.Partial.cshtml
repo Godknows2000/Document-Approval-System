@@ -1,0 +1,15 @@
+﻿@model Title
+@{
+    var editMode = Model?.Id != null;
+}
+<div class="card">
+    <div class="card-header"></div>
+    <div class="card-body">
+        <div class="mb-3 form-floating">
+            <input type="text" asp-for="Name" maxlength="16" class="form-control" />
+            <label>Name</label>
+            <span asp-validation-for="Name"></span>
+        </div>
+    </div>
+    <div class="card-footer"><button class="btn btn-@(editMode?"primary":"success")"><i class="fa-solid fa-floppy-disk"></i> Submit</button></div>
+</div>

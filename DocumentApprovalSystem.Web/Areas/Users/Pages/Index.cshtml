@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+<table class="table table-striped border-bottom table-hover">
+    <thead>
+        <tr>
+            <th>User name</th>
+            <th hidden>Employee</th>
+            <th>Last login date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.List)
+        {
+            <tr>
+                <td>
+                    <div>
+                        <div style="width: 48px; height: 48px;" class="font-weight-bold float-start me-2 p-2 border border-secondary rounded-circle bg-white text-center align-middle">@user.Initials</div>
+                        <div>
+                            <div>@user.Name</div>
+                            <div class="text-muted small"><a asp-page="./Details" asp-route-id="@user.Id">@user.LoginId</a></div>
+                        </div>
+                    </div>
+                </td>
+                <td hidden>@user.Name</td>
+                <td>@user.LastLoginDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\bin\Debug\net8.0\DocumentApprovalSystem.Lib.deps.json
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\bin\Debug\net8.0\DocumentApprovalSystem.Lib.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\bin\Debug\net8.0\DocumentApprovalSystem.Lib.pdb
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.AssemblyInfoInputs.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.AssemblyInfo.cs
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.csproj.CoreCompileInputs.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\refint\DocumentApprovalSystem.Lib.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.pdb
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\ref\DocumentApprovalSystem.Lib.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\bin\Debug\net8.0\DocumentApprovalSystem.Lib.runtimeconfig.json
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.csproj.AssemblyReference.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Lib\obj\Debug\net8.0\DocumentApprovalSystem.Lib.genruntimeconfig.cache

@@ -1,0 +1,49 @@
+﻿@model DocumentApprovalSystem.Data.User
+@{
+    var id = ViewContext.RouteData.Values["id"]?.ToString();
+    var editMode = Model?.Id != null && Model.Id != Guid.Empty;
+}
+<div class="card">
+    <div class="card-body">
+        <div class="form-floating mb-3">
+            <input asp-for="Name" type="text" required class="form-control" id="Name" />
+            <label for="Name">Full name<i class="text-danger">*</i></label>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        @if (id != null)
+        {
+            <div class="form-floating mb-3">
+                <input asp-for="LoginId" readonly="@(id!=null)" required class="form-control" id="LoginId" />
+                <label for="LoginId">Login Id<i class="text-danger">*</i></label>
+                <span asp-validation-for="LoginId" class="text-danger"></span>
+            </div>
+        }
+        <div class="form-floating mb-3">
+            <input asp-for="Email" type="email" required class="form-control" id="Email" />
+            <label for="Email">Email address<i class="text-danger">*</i></label>
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <select asp-for="Role" class="form-control" data-bind="value:Role" asp-items="@Html.GetListItems<UserRole>()" id="Role">
+                <option value="">Select..</option>
+            </select>
+            <label for="Role">Role<i class="text-danger">*</i></label>
+            <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+        <div class="form-floating mb-3">
+            <input asp-for="Mobile" type="text" id="Mobile" class="form-control" />
+            <label for="Mobile">Mobile</label>
+            <span asp-validation-for="Mobile" class="text-danger"></span>
+        </div>
+        <div class="row mb-3">
+            <label class="col-md-3">Activate account?</label>
+            <div class="col-md-9">
+                <input asp-for="IsActive" type="checkbox" checked />
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <button class="btn btn-@(id==null?"success":"primary")"><i class="fa fa-save"></i> Save</button>
+    </div>
+</div>
+

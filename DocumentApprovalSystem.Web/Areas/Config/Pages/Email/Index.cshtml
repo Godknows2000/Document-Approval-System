@@ -1,0 +1,23 @@
+﻿@page
+@model IndexModel
+<table class="table table-striped table-sm table-hover border-bottom">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Sender Id</th>
+            <th>Email server</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var email in Model.List)
+        {
+            <tr>
+                <td><a asp-page="./Details" asp-route-id="@email.Id">@email.Name</a></td>
+                <td>@email.SenderId</td>
+                <td>@email.Host:@email.Port</td>
+                <td><span class="badge bg-@(email.IsActive?"success":"danger")">@(email.IsActive ? "ACTIVE" : "DEACTIVE")</span></td>
+            </tr>
+        }
+    </tbody>
+</table>

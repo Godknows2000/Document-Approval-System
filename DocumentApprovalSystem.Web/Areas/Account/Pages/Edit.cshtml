@@ -1,0 +1,188 @@
+﻿@page
+@model EditModel
+
+@section sidebar {
+}
+<form method="post" id="RegForm" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Employee.Surname" data-bind="value:Surname" />
+    <input type="hidden" asp-for="Employee.FirstName" data-bind="value:Name" />
+    <input type="hidden" asp-for="Employee.IdNumber" data-bind="value:IDNo" />
+    <input type="hidden" asp-for="Employee.DoB" data-bind="value:DOB" />
+    <input type="hidden" asp-for="Employee.Address" data-bind="value:Address" />
+    <input type="hidden" asp-for="Employee.TitleId" data-bind="value:Title" />
+    <input type="hidden" asp-for="Employee.Position" data-bind="value:Position" />
+    <input type="hidden" asp-for="Employee.EcNumber" data-bind="value:EC" />
+</form>
+
+<div class="card">
+    <div class="card-header"></div>
+    <div class="card-body">
+        <h5 class="text-uppercase">Basic details</h5>
+        <div class="row g-2">
+            <div class="col-md-2">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !TitleIsValid()}">
+                        <select id="Select" class="form-control form-select" data-placeholder="Title" asp-items="Model.Titles" data-bind="value:Title, css: {'is-invalid': !TitleIsValid()}">
+                            <option value="">Select</option>
+                        </select>
+                        <label for="Select">Title</label>
+                    </div>
+                    <div id="titVal" class="invalid-feedback">Title is required</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !NameIsValid()}">
+                        <input type="text" data-bind="textinput:Name, css: {'is-invalid': !NameIsValid()}" class="form-control" required />
+                        <label>Forename(s)</label>
+                    </div>
+                    <div id="nameVal" class="invalid-feedback">Name is required</div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !SurnameIsValid()}">
+                        <input type="text" data-bind="textinput:Surname, css: {'is-invalid': !SurnameIsValid()}" class="form-control" required />
+                        <label>Surname</label>
+                    </div>
+                    <div id="surnameVal" class="invalid-feedback">Surname is required</div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !DOBIsValid()}">
+                        <input type="text" data-bind="textinput:DOB, css: {'is-invalid': !DOBIsValid()}" class="form-control datepicker" required value="@Model.Employee.DoB.ToString("yyy-MM-dd")" />
+                        <label for="DoB">Date of birth</label>
+                    </div>
+                    <div id="dobVal" class="invalid-feedback">Invalid date of birth</div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !IDIsValid()}">
+                        <input type="text" data-bind="textinput:IDNo, css: {'is-invalid': !IDIsValid()}" class="form-control" required />
+                        <label>National ID number</label>
+                    </div>
+                    <div id="idVal" class="invalid-feedback">ID number is required</div>
+                </div>
+            </div>
+        </div>
+        <h5 class="mt-3 text-uppercase">Contact details</h5>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating">
+                        <input type="email" value="@Model.CurrentUser.Email" readonly class="form-control" required />
+                        <label>Email address</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating">
+                        <input type="number" name="Mobile" value="@Model.CurrentUser.Mobile" readonly class="form-control" required />
+                        <label>Mobile</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !AddrIsValid()}">
+                        <input type="text" data-bind="textinput:Address, css: {'is-invalid': !AddrIsValid()}" class="form-control" required />
+                        <label>Home address</label>
+                    </div>
+                    <div id="addrVal" class="invalid-feedback">Address is required</div>
+                </div>
+            </div>
+        </div>
+        <h5 class="mt-3 text-uppercase">Employment details</h5>
+        <div class="row g-2">
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !ECIsValid()}">
+                        <input type="text" asp-for="Employee.EcNumber" data-bind="textinput:EC, css: {'is-invalid': !ECIsValid()}" class="form-control" required />
+                        <label>@(Model.Employee.EcNumber ?? "employee number")</label>
+                    </div>
+                    <div id="posVal" class="invalid-feedback">EC is required</div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="mb-3 has-validation">
+                    <div class="form-floating" data-bind="css: {'is-invalid': !PositionIsValid()}">
+                        <input type="text" data-bind="textinput:Position, css: {'is-invalid': !PositionIsValid()}" class="form-control" required />
+                        <label>Position</label>
+                    </div>
+                    <div id="posVal" class="invalid-feedback">Position is required</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <!--ko if: !IsSubmitting()-->
+        <button class="btn btn-success" data-bind="click:Submit"><i class="fa fa-save"></i> Submit </button>
+        <!--/ko-->
+        <span class="small text-muted" data-bind="if:IsSubmitting"><i class="fa fa-spin fa-spinner"></i> Updating your account, please wait..</span>
+    </div>
+</div>
+@section scripts {
+    <script type="text/javascript">
+        function VM() {
+            var self = this;
+            self.Title = ko.observable("@Model.Employee.TitleId");
+            self.Name = ko.observable("@Model.Employee.FirstName");
+            self.Surname = ko.observable("@Model.Employee.Surname");
+            self.IDNo = ko.observable("@Model.Employee.IdNumber");
+            self.DOB = ko.observable("@Model.Employee.DoB.ToString("yyy-MM-dd")");
+            self.Address = ko.observable("@Model.Employee.Address.ToHtmlString()");
+            self.Position = ko.observable("@Model.Employee.Position");
+            self.EC = ko.observable("@Model.Employee.EcNumber");
+            self.Image = ko.observable();
+
+            self.IsSubmitting = ko.observable(false);
+
+            self.TitleIsValid = ko.computed(function () {
+                return self.Title();
+            });
+            self.NameIsValid = ko.computed(function () {
+                return self.Name().trim().length > 1;
+            });
+            self.SurnameIsValid = ko.computed(function () {
+                return self.Surname().trim().length > 1;
+            });
+            self.IDIsValid = ko.computed(function () {
+                return self.IDNo().trim().length > 6;
+            });
+            self.DOBIsValid = ko.computed(function () {
+                var date = Date.parse(self.DOB());
+                var age = 0;
+                if (!isNaN(date)) age = Math.abs((new Date(Date.now() - date)).getUTCFullYear() - 1970);
+                return (!isNaN(date) && age > 17 && age < 65);
+            });
+            self.AddrIsValid = ko.computed(function () {
+                return self.Address().trim().length > 2;
+            });
+            self.PositionIsValid = ko.computed(function () {
+                return self.Position().trim().length > 4;
+            });
+
+            self.ECIsValid = ko.computed(function () {
+                return self.EC().trim().length > 2;
+            });
+
+            self.Submit = function () {
+                if (self.TitleIsValid() && self.NameIsValid() && self.SurnameIsValid() && self.IDIsValid() && self.DOBIsValid() && self.AddrIsValid() && self.PositionIsValid() && self.ECIsValid()) {
+                    self.IsSubmitting(true);
+                    $("#RegForm").submit();
+                }
+            }
+        }
+        $(document).ready(function () {
+            ko.applyBindings(new VM());
+        });
+    </script>
+}

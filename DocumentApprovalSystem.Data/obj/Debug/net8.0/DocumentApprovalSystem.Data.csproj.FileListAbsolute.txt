@@ -1,0 +1,17 @@
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\bin\Debug\net8.0\DocumentApprovalSystem.Data.deps.json
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\bin\Debug\net8.0\DocumentApprovalSystem.Data.runtimeconfig.json
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\bin\Debug\net8.0\DocumentApprovalSystem.Data.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\bin\Debug\net8.0\DocumentApprovalSystem.Data.pdb
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\bin\Debug\net8.0\DocumentApprovalSystem.Lib.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\bin\Debug\net8.0\DocumentApprovalSystem.Lib.pdb
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.csproj.AssemblyReference.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.AssemblyInfoInputs.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.AssemblyInfo.cs
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.csproj.CoreCompileInputs.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\Document.2431D802.Up2Date
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\refint\DocumentApprovalSystem.Data.dll
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.pdb
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\DocumentApprovalSystem.Data.genruntimeconfig.cache
+D:\Projects\C# Asp.Net\DocumentApprovalSystem\DocumentApprovalSystem.Data\obj\Debug\net8.0\ref\DocumentApprovalSystem.Data.dll

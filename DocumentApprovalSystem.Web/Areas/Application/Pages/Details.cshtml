@@ -1,0 +1,222 @@
+﻿@page "{id}"
+@model DetailsModel
+@section sidebar{
+    <div class="list-group-flush list-group border-bottom" style="width:100%">
+        @if (User.IsEmployee() && !Model.DocRequest.IsApproved && !Model.DocRequest.IsCanceled)
+        {
+            <a class="list-group-item list-group-item-light justify-content-between d-flex align-items-center list-group-item-action" asp-page="Cancel" asp-route-id="@Model.DocRequest.Id"><span class="text-danger">Cancel this application</span><i class="fa fa-times text-danger"></i></a>
+        }
+        <a class="list-group-item list-group-item-light justify-content-between d-flex align-items-center list-group-item-action" target="_blank" asp-page-handler="Preview" asp-route-id="@Model.DocRequest.Id"><span>Preview</span><i class="fa fa-print"></i></a>
+        <a class="list-group-item list-group-item-light justify-content-between d-flex align-items-center list-group-item-action" asp-page-handler="Download" asp-route-id="@Model.DocRequest.Id"><span>Download</span><i class="fa fa-download"></i></a>
+        @if (Model.DocRequest.IsApproved)
+        {
+            <a class="list-group-item list-group-item-light justify-content-between d-flex align-items-center list-group-item-action" style="color:#00882E" asp-page-handler="DownloadFile" asp-route-id="@Model.DocRequest.Id"><span>Download Approved Document</span><i class="fa fa-download"></i></a>
+        }
+        @if (User.IsTechSupport())
+        {
+            <a class="list-group-item list-group-item-light justify-content-between d-flex align-items-center list-group-item-action" style="color:#2F47BA" asp-page-handler="DownloadFile" asp-route-id="@Model.DocRequest.Id"><span>Download Requested Document</span><i class="fa fa-download"></i></a>
+        }
+    </div>
+    <partial name="_Notes" model="@Model.DocRequest.GetNotes()" />
+
+}
+@if (User.IsEmployee())
+{
+    @if (Model.DocRequest.IsAwaitingCreditProvider)
+    {
+        <div class="alert alert-warning shadow-sm my-3 border-warning">
+            @if (Model.DocRequest.IsAwaitingCreditProvider)
+            {
+                <h4 class="my-0">Hold on tight..</h4>
+                <h5 class="my-0">Your Document Approval Request application is now under review by the Relevant departments!</h5>
+                <div class="small text-muted">Note: Our review process normally takes not more than 24hrs.</div>
+            }
+        </div>
+    }
+}
+@if (!User.IsEmployee())
+{
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    @Model.Employee.FullName
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <div class=" d-flex flex-row " style="height:140px;">
+                        <div class="ms-3" style="margin-top: 30px;">
+                            <h5 class="mb-0 fw-bold">@Model.Employee.AccountId</h5>
+                            <h5 class="mb-0">@Model.Employee.FullName</h5>
+                            <div class="">@Model.Employee.Position | Ministry of ICT</div>
+                            <div class="small">@Model.Employee.User.Email</div>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        @if (Model.Employee.IsProfileInReview)
+                        {
+                            <div class="alert alert-warning shadow-sm my-3 border-warning">
+                                <h4 class="my-0">Pending approval</h4>
+                                <h5 class="my-0">This profile is now waiting for review</h5>
+                            </div>
+                        }
+                        @*<div class="">
+                            <div class="mt-3 h5">Personal documents</div>
+                            <ul class="small mb-0">
+                                @foreach (var item in Model.Employee.Employer.AttachmentTypes)
+                                {
+                                    var isUploaded = Model.Employee.GetAttachments().Any(c => c.TypeId == item.Id);
+                                    <li>
+                                        <i class="fa fa-@(isUploaded ? "check text-success" : "clock text-muted") "></i>
+                                        @if (isUploaded)
+                                        {
+                                            <a asp-area="Employees" asp-page="/Attachments/Details" asp-route-id="@Model.Employee.Id" asp-route-FileId="@Model.Employee.GetAttachments().FirstOrDefault(c => c.TypeId == item.Id).Id">@item.Name</a>
+                                        }
+                                        else
+                                        {
+                                            <span>@item.Name</span>
+                                        }
+                                    </li>
+                                }
+                            </ul>
+
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="card mt-3">
+    <div class="card-body">
+        @if (!User.IsEmployee())
+        {
+            <div class="row mb-3">
+                <label class="col-md-4">Employer</label>
+                <div class="col-md-8"><a asp-page="/Details" asp-area="Employers" asp-route-id="@Model.DocRequest.Employee">Ministry of ICT</a></div>
+            </div>
+        }
+        <div class="row mb-3 fw-bold">
+            <label class="col-md-4">Leave name</label>
+            <div class="col-md-8">@Model.DocRequest.DocType?.Name</div>
+        </div>
+        <div class="row mb-3 fw-bold">
+            <label class="col-md-4">Department</label>
+            <div class="col-md-8">@Model.DocRequest.Department?.Name</div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-md-4">Creation date</label>
+            <div class="col-md-8">@Model.DocRequest.CreationDate</div>
+        </div>
+        @if (!string.IsNullOrWhiteSpace(Model.DocRequest.RequestComments))
+        {
+            <div class="row mb-3">
+                <label class="col-md-4">Document Approval request comments </label>
+                <div class="col-md-8">@Model.DocRequest.RequestComments</div>
+            </div>
+        }
+        <div class="row mb-3">
+            <label class="col-md-4">Document approval request status</label>
+            <div class="col-md-8">@Model.DocRequest.Status.ToHtml()</div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col">
+                @if (User.IsEmployee() && string.IsNullOrWhiteSpace(Model.DocRequest.SignatureUrl))
+                {
+                    <div class="card-body" id="signat">
+                        <div>Sign in this box</div>
+                        <div id="canvas" class="rounded">
+                            <canvas class="roundCorners" id="newSignature" style="position: relative; margin: 0; padding: 0; border: 1px solid #c4caac;"></canvas>
+                        </div>
+                        <div class="btn-group btn-group-sm">
+                            <button type="button" class="btn btn-outline-success" onclick="signatureSave()">Preview signature</button>
+                            <button type="button" class="btn btn-outline-danger" onclick="signatureClear()">Clear signature</button>
+                        </div>
+                        <div class="collapse" id="imgDiv">
+                            <form method="post" asp-page-handler="Sign">
+                                <input type="hidden" id="dataUrl" name="Signature" />
+                                <div class="mt-2 mb-1">Saved Image</div>
+                                <img id="saveSignature" alt="Saved image png" />
+                                <div class="">
+                                    <button class="btn btn-success btn-sm">Save and continue</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div>
+@*             <div class="col">
+                @if (User.IsTechSupport() && string.IsNullOrWhiteSpace(Model.DocRequest.SecretarySignatureUrl))
+                {
+                    <div class="card-body" id="signat">
+                        <div>Sign in this box</div>
+                        <div id="canvas" class="rounded">
+                            <canvas class="roundCorners" id="newSignature" style="position: relative; margin: 0; padding: 0; border: 1px solid #c4caac;"></canvas>
+                        </div>
+                        <div class="btn-group btn-group-sm">
+                            <button type="button" class="btn btn-outline-success" onclick="signatureSave()">Preview signature</button>
+                            <button type="button" class="btn btn-outline-danger" onclick="signatureClear()">Clear signature</button>
+                        </div>
+                        <div class="collapse" id="imgDiv">
+                            <form method="post" asp-page-handler="Sign">
+                                <input type="hidden" id="dataUrl" name="Signature" />
+                                <div class="mt-2 mb-1">Saved Image</div>
+                                <img id="saveSignature" alt="Saved image png" />
+                                <div class="">
+                                    <button class="btn btn-success btn-sm">Save and continue</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                }
+            </div> *@
+        </div>
+        <div class="row">
+            <div class="col-md">
+                @if (!string.IsNullOrWhiteSpace(Model.DocRequest.SignatureUrl))
+                {
+                    <div>
+                        <label>Employee Signature</label>
+                        <img style='margin-bottom:1px' src='@Model.DocRequest.SignatureUrl' />
+                    </div>
+                }
+            </div>
+            <div class="col-md">
+                @if (!string.IsNullOrWhiteSpace(Model.DocRequest.SecretarySignatureUrl))
+                {
+                    <div>
+                        <label class="text-primary">Secretary Signature</label>
+                        <img style='margin-bottom:1px' src='@Model.DocRequest.SecretarySignatureUrl' />
+                    </div>
+                }
+            </div>
+        </div>
+        @if (User.IsTechSupport() && Model.DocRequest.Status == DocStatus.AWAITING_APPROVAL)
+        {
+            <a class="btn btn-sm btn-success mt-2" asp-page="./Approve" asp-route-id="@Model.DocRequest.Id"><i class="fa-solid fa-circle-check"></i> Approve</a>
+            <a class="btn btn-sm btn-danger mt-2 ms-3" asp-page="./Reject" asp-route-id="@Model.DocRequest.Id"><i class="fa-solid fa-xmark"></i> Reject</a>
+        }
+    </div>
+</div>
+@section scripts{
+    <script src="~/js/signature.js"></script>
+    <script>
+        $(document).ready(function () {
+            var hasSignature = '@(!string.IsNullOrWhiteSpace(Model.DocRequest.SignatureUrl))';
+            console.log(hasSignature);
+            if (hasSignature == 'False') {
+                signatureCapture();
+            }
+        });
+        $(document).ready(function () {
+            var hasSignature = '@(!string.IsNullOrWhiteSpace(Model.DocRequest.SecretarySignatureUrl))';
+            console.log(hasSignature);
+            if (hasSignature == 'False') {
+                signatureCapture();
+            }
+        });
+    </script>
+}

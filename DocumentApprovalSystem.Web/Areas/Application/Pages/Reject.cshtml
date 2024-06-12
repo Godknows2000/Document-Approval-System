@@ -1,0 +1,49 @@
+﻿@page
+@model RejectModel
+@section sidebar{
+    <div></div>
+}
+<div class="card">
+    <div class="card-body">
+        @if (!User.IsEmployee())
+        {
+            <div class="row mb-3">
+                <label class="col-md-4">Employee</label>
+                <div class="col-md-8">@Model.DocRequest.Employee?.FullName</div>
+            </div>
+        }
+        <div class="row mb-3 fw-bold">
+            <label class="col-md-4">Leave Name</label>
+            <div class="col-md-8">@Model.DocRequest.DocType?.Name</div>
+        </div>
+        <div class="row mb-3 fw-bold">
+            <label class="col-md-4">Department</label>
+            <div class="col-md-8">@Model.DocRequest.Department?.Name</div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-md-4">End date</label>
+            <div class="col-md-8">@Model.DocRequest.CreationDate</div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-md-4">Document Approval Request status</label>
+            <div class="col-md-8">@Model.DocRequest.Status.Humanize()</div>
+        </div>
+        <div class="row mb-3">
+            <label class="col-md-4">Leave Request Comments</label>
+            <div class="col-md-8">@Model.DocRequest.RequestComments</div>
+        </div>
+        @if (User.IsTechSupport())
+        {
+            <form method="post">
+                <div class="mb-2">
+                    <label class="mb-0">Rejection reason</label>
+                    <textarea rows="3" name="Comments" class="form-control"></textarea>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a asp-page="./Details" asp-route-id="@Model.DocRequest.Id" class="btn btn-sm btn-dark mt-2 ms-3"><i class="fa-solid fa-xmark"></i> Back</a>
+                    <button class="btn btn-sm btn-success mt-2"><i class="fa-solid fa-circle-check"></i> Reject</button>
+                </div>
+            </form>
+        }
+    </div>
+</div>

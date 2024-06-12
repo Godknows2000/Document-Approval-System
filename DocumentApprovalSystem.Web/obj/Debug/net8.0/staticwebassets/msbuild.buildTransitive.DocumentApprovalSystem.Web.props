@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DocumentApprovalSystem.Web.props" />
+</Project>

@@ -1,0 +1,20 @@
+﻿@page
+@using DocumentApprovalSystem.Web.Areas.DocumentName.Pages
+@model IndexModel
+<table class="table table-sm table-striped table-hover border-bottom">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Creation date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.List)
+        {
+            <tr>
+                <td><a asp-page="./Details" asp-route-id="@item.Id">@item.Name</a></td>
+                <td>@item.CreationDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

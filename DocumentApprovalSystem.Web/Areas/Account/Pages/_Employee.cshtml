@@ -1,0 +1,22 @@
+﻿@model IndexModel
+
+<div class="ps-3">
+    <div>@Model.HasEcNumber.ToStatusHtml() <a asp-page="Edit">Set your @(Model.Employee.EcNumber ?? "employee number")</a></div>
+    <div>
+        @*@if (Model.DocsUploaded)
+        {
+            @Model.DocsUploaded.ToStatusHtml() <a asp-page="./Attachments/Index">View attachments</a>
+        }
+        else
+        {
+            @Model.DocsUploaded.ToStatusHtml() <a asp-page="./Attachments/Upload">Upload required attachments</a>
+        }*@
+        <ul class="small mb-0">
+            @*@foreach (var item in Model.Employee.AttachmentTypes)
+            {
+                var isUploaded = Model.Employee.GetAttachments().Any(c => c.TypeId == item.Id);
+                <li><i class="fa fa-@(isUploaded ? "check text-success" : "clock text-muted") "></i> @item.Name</li>
+            }*@
+        </ul>
+    </div>
+</div>

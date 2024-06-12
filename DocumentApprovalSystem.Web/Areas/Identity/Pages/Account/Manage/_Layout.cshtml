@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+@section sidebar{
+    <partial name="_ManageNav" />
+}
+<div>
+    @RenderBody()
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

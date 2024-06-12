@@ -1,0 +1,11 @@
+﻿@page
+@using DocumentApprovalSystem.Web.Areas.DocumentName.Pages
+@model AddModel
+@section sidebar{
+}
+    <form method="post">
+        <partial name="Edit.Partial" model="Model.DocType" />
+    </form>
+    @section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

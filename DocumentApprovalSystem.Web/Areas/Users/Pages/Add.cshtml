@@ -1,0 +1,12 @@
+﻿@page
+@model AddModel
+@section sidebar{
+    <div></div>
+}
+<div asp-validation-summary="All" class="text-danger"></div>
+<form method="post">
+    <partial name="Edit.Partial" model="Model.NewUser" />
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

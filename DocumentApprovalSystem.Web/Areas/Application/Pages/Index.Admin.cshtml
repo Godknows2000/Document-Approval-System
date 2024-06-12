@@ -1,0 +1,29 @@
+﻿@model IndexModel
+@if (!User.IsEmployee())
+{
+    <table class="table table-sm table-striped table-hover border-bottom">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Employee</th>
+                <th>Document name </th>
+                <th>Department</th>
+                <th>Status</th>
+                <th>Application date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.List)
+            {
+                <tr>
+                    <td><a asp-page="./Details" asp-route-id="@item.Id">@item.Number</a></td>
+                    <td>@item.Employee?.FullName</td>                   
+                    <td>@item.DocType?.Name</td>
+                    <td>@item.Department?.Name</td>
+                    <td>@item.Status.ToHtml()</td>
+                    <td>@item.CreationDate.Humanize()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

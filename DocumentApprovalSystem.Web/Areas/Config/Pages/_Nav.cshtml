@@ -1,0 +1,27 @@
+﻿@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+}
+<ul class="nav nav-pills flex-column mb-auto">
+    <li class="nav-item @(page.Contains("titles")?"active":"")">
+        <a asp-area="Config" asp-page="/Titles/Index" class="nav-link">
+            <i class="fa-solid fa-user-tie me-2"></i> Titles
+        </a>
+    </li>
+    <li class="nav-item @(page.Contains("departments")?"active":"")">
+        <a asp-area="Config" asp-page="/Department/Index" class="nav-link">
+            <i class="fa-solid fa-shop me-2"></i> Departments
+        </a>
+    </li>
+    <li class="nav-item @(area=="DocumentName"?"active":"")">
+        <a class="nav-link text-dark" asp-area="DocumentName" asp-page="/Index">
+            <i class="fa-solid fa-folder-open me-2"></i> Doc Types
+        </a>
+    </li>
+    <li class="nav-item @(page.Contains("email")?"active":"")">
+        <a asp-area="Config" asp-page="/Email/Index" class="nav-link">
+            <i class="fa-solid fa-envelope me-2"></i>
+            Email config
+        </a>
+    </li>
+</ul>

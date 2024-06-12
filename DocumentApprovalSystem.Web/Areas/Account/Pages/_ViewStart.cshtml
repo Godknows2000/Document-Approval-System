@@ -1,0 +1,9 @@
+﻿@{
+    Layout = "_AdminLayout";
+
+    @if (User.IsEmployee())
+    {
+        ViewBag.SideNavPath = "~/Areas/Account/Pages/_Nav.cshtml";
+        ViewBag.TopNavPath = "_Employee";
+    }
+}

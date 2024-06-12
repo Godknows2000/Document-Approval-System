@@ -1,0 +1,1117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\approve.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\approve.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\approve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\approve.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\syspagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\syspagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\syslistpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\syslistpagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\entities\\docrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\entities\\docrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\register\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\register\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\register\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\register\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.lib\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|solutionrelative:documentapprovalsystem.lib\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.lib\\jattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|solutionrelative:documentapprovalsystem.lib\\jattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\_notes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\_notes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.lib\\jattachmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|solutionrelative:documentapprovalsystem.lib\\jattachmenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.lib\\inotescontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|solutionrelative:documentapprovalsystem.lib\\inotescontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.lib\\iattachmentscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|solutionrelative:documentapprovalsystem.lib\\iattachmentscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\models\\dataextmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\models\\dataextmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\index.employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\index.employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\nav\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\nav\\_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\_employeelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\_employeelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\nav\\_employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\nav\\_employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\config\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\config\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\documentname\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\documentname\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\pdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\pdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\documentname\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\documentname\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\partial\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\partial\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\_employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\_employee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\account\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\account\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\index.admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\index.admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\reject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\reject.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\pdf.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\pdf.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\cancel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\cancel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\config\\pages\\department\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\config\\pages\\department\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\config\\pages\\titles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\config\\pages\\titles\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\config\\pages\\titles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\config\\pages\\titles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\config\\pages\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\config\\pages\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\nav\\_default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\nav\\_default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\documentname\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\documentname\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\reject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\reject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.web\\areas\\application\\pages\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CA71097-F9EE-4DF4-AC4B-C7B5231C0406}|DocumentApprovalSystem.Web\\DocumentApprovalSystem.Web.csproj|solutionrelative:documentapprovalsystem.web\\areas\\application\\pages\\cancel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\partial\\docrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\partial\\docrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\partial\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\partial\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\models\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\models\\jsonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.lib\\documentapprovalsystem.lib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A9FA3B4-3343-4E53-8F63-FD204E05DC5F}|DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj|solutionrelative:documentapprovalsystem.lib\\documentapprovalsystem.lib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\documentapprovalsystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\documentapprovalsystem.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|d:\\projects\\c# asp.net\\documentapprovalsystem\\documentapprovalsystem.data\\migrations\\20240523071927_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE8992C-E063-44BF-A345-9599A0FBF202}|DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj|solutionrelative:documentapprovalsystem.data\\migrations\\20240523071927_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7087de90-0a4f-3cee-b3b3-5e82c50e3dff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SysPageModel.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\SysPageModel.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\SysPageModel.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\SysPageModel.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\SysPageModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:48:13.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAIwEwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:52:16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Approve.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAvwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:53:05.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Approve.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Approve.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:16:42.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Details.cshtml",
+              "ViewState": "AQIAALAAAAAAAAAAAAAuwLUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:00:56.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:15:03.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Add.cshtml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADgvzUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:51:06.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SysListPageModel.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\SysListPageModel.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\SysListPageModel.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\SysListPageModel.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\SysListPageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:48:10.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Program.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Program.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T07:22:58.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAvwB8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:08:39.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Nav.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_Nav.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_Nav.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_Nav.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_Nav.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:57:56.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocRequest.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Entities\\DocRequest.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Entities\\DocRequest.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Entities\\DocRequest.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Entities\\DocRequest.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:33:20.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T16:05:55.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Register\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYBAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T20:21:49.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:49:04.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Notes.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_Notes.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\_Notes.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_Notes.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\_Notes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T13:11:23.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JAttachment.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\JAttachment.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Lib\\JAttachment.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\JAttachment.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Lib\\JAttachment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:13:11.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Note.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\Note.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Lib\\Note.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\Note.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Lib\\Note.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:12:48.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JAttachmentType.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\JAttachmentType.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Lib\\JAttachmentType.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\JAttachmentType.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Lib\\JAttachmentType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:15:29.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "INotesContainer.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\INotesContainer.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Lib\\INotesContainer.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\INotesContainer.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Lib\\INotesContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:15:16.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAttachmentsContainer.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\IAttachmentsContainer.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Lib\\IAttachmentsContainer.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\IAttachmentsContainer.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Lib\\IAttachmentsContainer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:15:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataExtMethods.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Models\\DataExtMethods.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Models\\DataExtMethods.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Models\\DataExtMethods.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Models\\DataExtMethods.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADgvw0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:11:54.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.Employee.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Employee.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Employee.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Employee.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Employee.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:09:31.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEwAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:22:18.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Admin.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Admin.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Admin.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Admin.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:36:52.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T06:20:31.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_EmployeeLayout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_EmployeeLayout.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\_EmployeeLayout.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_EmployeeLayout.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\_EmployeeLayout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:11:26.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:49:32.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:24:57.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Employee.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Employee.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Employee.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Employee.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Employee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T19:30:08.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Nav.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\_Nav.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\_Nav.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\_Nav.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\_Nav.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T06:35:51.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20240523071927_initial.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Migrations\\20240523071927_initial.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Migrations\\20240523071927_initial.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Migrations\\20240523071927_initial.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Migrations\\20240523071927_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T07:19:27.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Nav.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_Nav.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_Nav.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_Nav.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_Nav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T21:00:56.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T20:59:15.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Pdf.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:10:29.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Partial\\Employee.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Partial\\Employee.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Partial\\Employee.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Partial\\Employee.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAArwCMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:12:18.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T19:06:51.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T19:08:31.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T19:13:19.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Employee.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Employee.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Employee.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Employee.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Employee.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T20:47:34.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-22T19:49:20.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Nav.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Nav.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Nav.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Nav.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\_Nav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:58:35.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Entities\\Employee.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Entities\\Employee.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Entities\\Employee.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAwC8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:18:10.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Account\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:21:27.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:59:20.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:58:20.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Cancel.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:54:20.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.Admin.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Admin.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Admin.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Admin.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.Admin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:08:43.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Pdf.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Pdf.cshtml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:55:08.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Reject.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAkwCsAAACgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:55:25.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:49:59.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Add.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Add.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Add.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Add.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Add.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:48:33.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Add.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Add.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Add.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Add.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Add.cshtml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:48:05.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Titles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:47:25.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Config\\Pages\\Department\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:46:47.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_Default.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Default.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Default.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Default.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\Nav\\_Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T17:55:08.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T18:28:43.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T18:13:07.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAFkBAAAAAAAAAAAAAF8BAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-22T16:43:24.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\DocumentName\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:16:03.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Reject.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Reject.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T16:14:49.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Cancel.cshtml",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml",
+              "RelativeToolTip": "DocumentApprovalSystem.Web\\Areas\\Application\\Pages\\Cancel.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T15:59:03.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DocRequest.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Partial\\DocRequest.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Partial\\DocRequest.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Partial\\DocRequest.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Partial\\DocRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:12:24.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EmailConfig.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Partial\\EmailConfig.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Partial\\EmailConfig.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Partial\\EmailConfig.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Partial\\EmailConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:12:14.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "JsonHelper.cs",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Models\\JsonHelper.cs",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\Models\\JsonHelper.cs",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\Models\\JsonHelper.cs",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\Models\\JsonHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:12:00.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "DocumentApprovalSystem.Lib.csproj",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj",
+              "RelativeToolTip": "DocumentApprovalSystem.Lib\\DocumentApprovalSystem.Lib.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T12:54:23.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DocumentApprovalSystem.Data.csproj",
+              "DocumentMoniker": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj",
+              "RelativeDocumentMoniker": "DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj",
+              "ToolTip": "D:\\Projects\\C# Asp.Net\\DocumentApprovalSystem\\DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj",
+              "RelativeToolTip": "DocumentApprovalSystem.Data\\DocumentApprovalSystem.Data.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T12:49:57.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

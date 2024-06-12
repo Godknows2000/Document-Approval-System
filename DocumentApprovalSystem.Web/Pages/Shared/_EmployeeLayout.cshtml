@@ -1,0 +1,97 @@
+﻿@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+    var hasSideBar = IsSectionDefined("sidebar");
+    var hasSubTitle = ViewData["PageSubTitle"] != null;
+    var hasPageTitle = ViewData["PageTitle"] != null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IT Document Approval</title>
+    <partial name="_Styles" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-brand" id="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <a class="navbar-brand rounded-full text-white" asp-area="" asp-page="/Index">
+                    <img src="/images/img.png" width="50" height="50" style="border-radius: 50% !important;" />
+                    IT Document Approval System
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item @(area=="account"?"active":"")">
+                                <a class="nav-link text-dark" asp-area="Account" asp-page="/Index"><i class="fa-solid fa-house text-danger"></i> Home</a>
+                            </li>
+                            <li class="nav-item @(area=="application"?"active":"")">
+                                <a class="nav-link text-dark" asp-area="Application" asp-page="/Index"><i class="fa-solid fa-house text-danger"></i> Apply for Document Approval</a>
+                            </li>
+                        </ul>
+                        <partial name="_LoginPartial" />
+                    </div>
+                }
+            </div>
+        </nav>
+    </header>
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+        <div class="d-flex flex-column flex-shrink-0 py-3 px-1">
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link" aria-current="page">
+                        <i class="fa fa-circle-user me-2"></i>
+                        My profile
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fa-solid fa-gifts me-2"></i> My Leave
+                    </a>
+                </li>
+            </ul>
+            <hr />
+        </div>
+    </div>
+    <div class="container-fluid px-0">
+        <main role="main" class="pb-3 my-container active-cont">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="footer text-muted bg-dark text-white-50">
+        <partial name="_Footer" />
+    </footer>
+    <partial name="_Scripts" />
+    @await RenderSectionAsync("Scripts", required: false)
+    <script type="text/javascript">
+        var menu_btn = document.querySelector("#menu-btn");
+        var sidebar = document.querySelector("#sidebar");
+        var container = document.querySelector(".my-container");
+        menu_btn.addEventListener("click", () => {
+            sidebar.classList.toggle("active-nav");
+            container.classList.toggle("active-cont");
+            <!--Start of Tawk.to Script-- >
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/64840a03cc26a871b021aadb/1h2hse80o';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+            <!--End of Tawk.to Script-->
+        });</script>
+</body>
+</html>

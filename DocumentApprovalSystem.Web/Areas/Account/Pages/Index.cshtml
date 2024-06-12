@@ -1,0 +1,206 @@
+﻿@page
+@{
+    if (User.IsEmployee())
+    {
+        ViewBag.FlushBody = true;
+    }
+}
+@model IndexModel
+<div class="text-white d-flex flex-row bg-secondary" style="height:140px;">
+    <div class="ms-4 mt-0 d-flex flex-column" style="width: 150px;">
+        <div class="cntn">
+            @if (Model.Employee.ProfilePictureId.HasValue)
+            {
+                <img src="@Url.PageLink(pageHandler: "Image", pageName: "/Attachments/Index", values: new { id = Model.Employee.ProfilePictureId, area = "" })"
+                     alt="Generic placeholder image" class="img-fluid img-thumbnail mt-3 mb-2 shadow-sm image"
+                     style="width: 150px; z-index: 1">
+            }
+            else
+            {
+                <img src="~/images/avarta.png"
+                     alt="Generic placeholder image" class="img-fluid img-thumbnail mt-3 mb-2 shadow-sm image"
+                     style="width: 150px; z-index: 1">
+            }
+            <div class="middle">
+                <a asp-page="./Attachments/Upload" asp-route-isProfile="1" class="text btn btn-sm btn-outline-info">change</a>
+            </div>
+            <a asp-page="Edit" asp-route-id="@Model.Employee.Id" class="btn btn-outline-primary" style="z-index: 1;">
+                <i class="fa fa-edit"></i> Edit profile
+            </a>
+        </div>
+    </div>
+    <div class="ms-3" style="margin-top: 30px;">
+        <h5 class="mb-0 fw-bold">@Model.Employee.AccountId</h5>
+        <h5 class="mb-0">@Model.Employee.FullName</h5>
+        <div class="text-white-50">@Model.Employee.Position | Ministry of ICT</div>
+        <div class="small">@Model.Employee.User.Email</div>
+    </div>
+@*    @if (Model.Balances.Any())
+    {
+        <div class="ms-auto me-3">
+            <div class="display-6 fw-bold text-white">Balance</div>
+            @foreach (var item in Model.Balances)
+            {
+                <div class="display-6">@item.Key @item.Value.ToString("N2")</div>
+            }
+            <a class="btn btn-info">Cash out <i class="fa fa-chevron-right"></i></a>
+        </div>
+    }*@
+
+</div>
+<div class="p-4 text-black">
+    <div class="d-flex justify-content-end text-center py-1 pb-3">
+    </div>
+</div>
+<div class="p-2">
+    @if (Model.Employee.IsProfilePending)
+    {
+        <h4 class="mt-2 mb-0">You are almost done!</h4>
+        <h5 class="mt-0 mb-3">Complete setting up your profile by providing the following info:</h5>
+        <partial name="_Employee" />
+    }
+    else if (Model.Employee.IsProfileInReview)
+    {
+        <div class="alert alert-warning shadow-sm my-3 border-warning">
+            @if (User.IsEmployee())
+            {
+                <h4 class="my-0">Hold on tight..</h4>
+                <h5 class="my-0">Your profile is now under review. It should be active very soon!</h5>
+                <div class="small text-muted">Note: The review process normally takes not more than 24hrs and might involve confirming your details with your employer.</div>
+            }
+            else
+            {
+                <h4 class="my-0">Profile under review..</h4>
+                <h5 class="my-0">This profile is now under review. </h5>
+                <div class="small text-muted">Note: This profile was registered  @Model.Employee.CreationDate.ToElapsedTimeDescription()</div>
+            }
+            @if (User.IsTechSupport())
+            {
+                <a class="btn btn-sm btn-primary" asp-page-handler="">Approve</a>
+            }
+        </div>
+        <partial name="_Employee" />
+    }
+    else if (Model.Employee.IsRejected)
+    {
+        <div class="alert alert-danger shadow-sm my-3 border-danger">
+            @if (User.IsEmployee())
+            {
+                <h4 class="my-0">Note..</h4>
+                <h5 class="my-0">Your profile was rejected</h5>
+                <div class="small text-muted">Rejection reason: @Model.Employee.GetNotes().FirstOrDefault(c => c.StatusId == (int)EmployeeProfileStatus.REJECTED)?.Text</div>
+            }
+        </div>
+        <partial name="_Employee" />
+    }
+    else
+    {
+@*        if (Model.Loans.Any())
+        {
+            <div class="mt-2 mb-2">Loans</div>
+            <table class="table table-sm table-striped table-hover border-bottom">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Customer</th>
+                        <th>Application date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Loans)
+                    {
+                        <tr>
+                            <td><a asp-area="Loans" asp-page="./Details" asp-route-id="@item.Id">@item.Number</a></td>
+                            <td>@item.Employee.FullName</td>
+                            <td>@item.CreationDate.Humanize()</td>
+                            <td>@item.Status.ToHtml()</td>
+                            <td>@item.Tenure()</td>
+                            <td>@item.CurrencyId @item.Amount.ToString("N2")</td>
+                            <td>@item.CurrencyId @item.LoanAmount.ToString("N2")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }*@
+
+@*        @if (Model.HasPreferredProviders)
+        {
+            <div>@Model.HasPreferredProviders.ToStatusHtml() <a asp-page="CreditProviders/Edit">Choose more credit providers</a></div>
+            <div class="row mt-2 g-2">
+                @foreach (var item in Model.CreditProviders)
+                {
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="shadow-sm bg-white" style="height:250px">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    @if (item.ThumbnailId.HasValue)
+                                    {
+                                        <img src="@Url.PageLink(pageHandler:"Download", pageName: "Attachments/Index", values: new { id=item.ThumbnailId })" style="width:30%;height:30%;" />
+                                    }
+                                    else
+                                    {
+                                        <img src="~/images/bank-icon.png" style="width:30%;height:30%;" />
+                                    }
+                                    <div class="h5 mt-2">@item.Name</div>
+                                </div>
+                                <hr />
+                                <div>
+                                    <div><i class="fa-solid fa-phone text-muted"></i> @item.Contact</div>
+                                    <div class="text-ellipsis-1"><i class="fa-solid fa-city text-muted"></i> @item.Address</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div>@Model.HasPreferredProviders.ToStatusHtml() <a asp-page="CreditProviders/Edit">Select your preferred credit providers</a></div>
+        }*@
+    }
+</div>
+
+@section styles{
+    <style>
+        .cntn {
+            position: relative;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .cntn:hover .image {
+            opacity: 0.3;
+        }
+
+        .cntn:hover .middle {
+            opacity: 1;
+        }
+
+        .text {
+            background-color: #04AA6D;
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+}

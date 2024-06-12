@@ -1,0 +1,20 @@
+﻿@page "{id}"
+@using DocumentApprovalSystem.Web.Areas.DocumentName.Pages
+@model DetailsModel
+@section sidebar{
+}
+<div class="card">
+    <div class="card-header"></div>
+    <div class="card-body">
+        <div>
+            <label class="form-label">Name</label>
+            <div>@Model.DocType.Name</div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <div>
+            <label class="form-label">Creation date</label>
+            <div>@Model.DocType.CreationDate</div>
+        </div>
+    </div>
+</div>

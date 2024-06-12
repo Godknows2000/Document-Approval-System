@@ -1,0 +1,23 @@
+﻿@using DocumentApprovalSystem.Web;
+@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+}
+@if (User.IsTechSupport())
+{
+<div class="mb-4 ms-3">
+    <div class="profile-pic">
+        <img class="profile-userpic me-2" src="./images/user.png" style="height: 96px; width: 96px; object-fit: cover;">
+    </div>
+    <div class="profile-description">
+        <div class="profile-name">@Model.CurrentUser.Name</div>
+        @*<div class="d-block">@Model.CurrentUser.Role</div>*@
+        <a class="text-muted d-block small" href="mailto:garesho@wcyber.net">@Model.CurrentUser.Email</a>
+
+    </div>
+@*    <div class="d-lg-inline float-end  d-none">
+        <a class="btn  btn-primary " asp-area="Users" asp-page="/Add"><i class="fas fa-plus"></i>&nbsp;Add New user</a>
+    </div>*@
+</div>
+}
+

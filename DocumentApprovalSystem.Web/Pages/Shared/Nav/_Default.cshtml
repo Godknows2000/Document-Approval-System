@@ -1,0 +1,12 @@
+﻿@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+}
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item active">
+        <a class="nav-link text-white" asp-area="" asp-page="/Index"><i class="fa-solid fa-house"></i> Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" asp-area="" asp-page="/HowItWorks"><i class="fa-solid fa-circle-question"></i> How it works</a>
+    </li>
+</ul>

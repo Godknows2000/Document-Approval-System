@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = "_AdminLayout";
+    ViewBag.SideNavPath = "~/Areas/Users/Pages/_Nav.cshtml";
+    switch (User.GetUserType())
+    {
+        case UserType.EMPLOYEE:
+            ViewBag.TopNavPath = "_Employee";
+            break;
+        case UserType.TECH_SUPPORT:
+            ViewBag.TopNavPath = "_Admin";
+            ViewBag.SideNavPath = "~/Areas/Users/Pages/_Nav.cshtml";
+            break;
+        default:
+            ViewBag.TopNavPath = "_Default";
+            break;
+    }
+
+}

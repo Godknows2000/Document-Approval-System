@@ -1,0 +1,78 @@
+﻿@page "{id}"
+@model DetailsModel
+@section sidebar{
+    <div></div>
+}
+@if (Model.IsTestSuccessful.HasValue)
+{
+    if (Model.IsTestSuccessful.Value)
+    {
+        <div class="alert alert-success border-success alert-dismissible fade show mt-4" role="alert">
+            <div class="h4">Test message successfully sent</div>
+            <p>Please check <strong>@Model.CurrentUser.Email</strong> to verify.</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            </button>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger border-danger alert-dismissible fade show mt-4" role="alert">
+            <div class="h4">Sending test message failed!</div>
+            <p>@Model.ErrorMessage</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+            </button>
+        </div>
+    }
+}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="mb-3 row">
+                    <label class="col-md-3 text-muted">Name</label>
+                    <div class="col-md-9 ms-5">@Model.EmailConfig.Name</div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-md-3 text-muted">Status</label>
+                    <div class="col-md-9"><span class="badge bg-@(Model.EmailConfig.IsActive?"success":"danger")">@(Model.EmailConfig.IsActive ? "ACTIVE" : "DEACTIVE")</span></div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-md-3 text-muted">Sender Id</label>
+                    <div class="col-md-9">@Model.EmailConfig.SenderId</div>
+                </div>
+                <div class="mb-3 row">
+                    <label class="col-md-3 text-muted">User-name</label>
+                    <div class="col-md-9">@Model.EmailConfig.Username</div>
+                </div>
+                @if (!string.IsNullOrWhiteSpace(Model.EmailConfig.SenderDisplayName))
+                {
+                    <div class="mb-3 row">
+                        <label class="col-md-3 text-muted">Sender display name</label>
+                        <div class="col-md-9">@Model.EmailConfig.SenderDisplayName</div>
+                    </div>
+                }
+                <div class="mb-3 row">
+                    <label class="col-md-3 text-muted">Email server</label>
+                    <div class="col-md-9">@Model.EmailConfig.Host:@Model.EmailConfig.Port</div>
+                </div>
+                <div class="row">
+                    <label class="col-md-3 text-muted">Enable SSL</label>
+                    <div class="col-md-9"><span class="badge bg-@(Model.EmailConfig.EnableSsl?"success":"danger")">@(Model.EmailConfig.EnableSsl ? "YES" : "NO")</span></div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <h4>Use config for:</h4>
+                @foreach (EmailConfigTarget item in Enum.GetValues(typeof(EmailConfigTarget)))
+                {
+                    <div><label><i class="fa fa-@(Model.EmailConfig.Target.HasFlag(item) ? "check-circle text-info" : "circle-notch")"></i> @item.ToEnumString()</label></div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="card-footer">
+        <a asp-page-handler="SendTest" class="btn btn-outline-primary">Send a test email to myself..</a>
+    </div>
+</div>
+
+

@@ -1,0 +1,74 @@
+﻿@page "{id}"
+@model EditModel
+<form method="post">
+    <div class="row ">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <div class="mb-3 row">
+                        <label class="col-md-3">Name</label>
+                        <div class="col-md-9">
+                            <input asp-for="EmailConfig.Name" type="text" maxlength="64" required class="form-control" />
+                            <span asp-validation-for="EmailConfig.Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-md-3">Sender ID</label>
+                        <div class="col-md-9">
+                            <input asp-for="EmailConfig.SenderId" type="email" maxlength="128" required class="form-control" />
+                            <span asp-validation-for="EmailConfig.SenderId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-md-3">Sender display name</label>
+                        <div class="col-md-9">
+                            <input asp-for="EmailConfig.SenderDisplayName" type="text" maxlength="128" class="form-control" />
+                            <span asp-validation-for="EmailConfig.SenderDisplayName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-md-3">Credentials</label>
+                        <div class="col-md-9">
+                            <div class="input-group">
+                                <input asp-for="EmailConfig.Username" type="text" placeholder="Username" maxlength="128" class="form-control" />
+                                <input asp-for="EmailConfig.Password" type="password" placeholder="Password" maxlength="128" class="form-control" />
+                            </div>
+                            <div><span asp-validation-for="EmailConfig.Username" class="text-danger"></span></div>
+                            <div><span asp-validation-for="EmailConfig.Password" class="text-danger"></span></div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-md-3">Email server</label>
+                        <div class="col-md-9">
+                            <div class="input-group">
+                                <input asp-for="EmailConfig.Host" type="text" placeholder="Host" maxlength="64" class="form-control" />
+                                <input asp-for="EmailConfig.Port" type="number" placeholder="Port" maxlength="8" class="form-control" />
+                            </div>
+                            <div><span asp-validation-for="EmailConfig.Host" class="text-danger"></span></div>
+                            <div><span asp-validation-for="EmailConfig.Port" class="text-danger"></span></div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label class="col-md-3">Enable SSL</label>
+                        <div class="col-md-9">
+                            <input asp-for="EmailConfig.EnableSsl" type="checkbox" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary"><i class="fa fa-save"></i>&nbsp;Save</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h4>Use config for:</h4>
+            @foreach (EmailConfigTarget item in Enum.GetValues(typeof(EmailConfigTarget)))
+            {
+                <div><label><input type="checkbox" name="TargetIds" value="@((int)item)" @(Model.EmailConfig.Target.HasFlag(item) ? "checked" : "") /> @item.ToEnumString()</label></div>
+            }
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

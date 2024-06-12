@@ -1,0 +1,22 @@
+﻿@model List<Note>
+<div style="width:100%">
+    <h4><i class="fa fa-pencil text-info small"></i> Notes</h4>
+    <hr />
+    @foreach (var item in Model)
+    {
+        <div class="mb-3 small">
+            <div class="fw-bold"><i class="fa fa-user"></i> @item.Creator</div>
+            <div class="p-2 rounded" style="background:#eef">@item.Text</div>
+            <div class="small text-end">@item.CreationDate.ToElapsedTimeDescription()</div>
+        </div>
+    }
+    @if (!User.IsEmployee())
+    {
+        <form method="post" asp-page-handler="AddNotes">
+            <textarea name="Comments" rows="3" required class="form-control mb-2"></textarea>
+            <div class="text-end">
+                <button class="btn btn-outline-primary btn-sm">Save <i class="fa fa-plus"></i></button>
+            </div>
+        </form>
+    }
+</div>

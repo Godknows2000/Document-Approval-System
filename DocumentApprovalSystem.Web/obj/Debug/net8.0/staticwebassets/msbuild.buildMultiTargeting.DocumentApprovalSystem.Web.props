@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DocumentApprovalSystem.Web.props" />
+</Project>

@@ -1,0 +1,65 @@
+﻿@page
+@model AddModel
+@section sidebar{
+    <div></div>
+}
+<form method="post" enctype="multipart/form-data" class="form-floating g-3 needs-validation">
+    <div class="card">
+        <div class="card-body">
+            <div class="mb-3">
+                <label class="text-muted">Document Type Name</label>
+                <select asp-for="DocRequest.DocTypeId" asp-items="@Model.DocType" class="form-control form-select" >
+                    <option value="">Select...</option>
+                </select>
+                <span asp-validation-for="DocRequest.DocType" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="text-muted">Department</label>
+                <select asp-for="DocRequest.DepartmentId" asp-items="@Model.Departments" class="form-control form-select" >
+                    <option value="">Select...</option>
+                </select>
+                <span asp-validation-for="DocRequest.DocType" class="text-danger"></span>
+            </div>
+            @*<div class="row mb-3">
+                <input class="col-md-8" asp-for="DocRequest.NumberOfDays"> @Model.DocRequest.NumberOfDays</>
+                <label class="col-md-4">Number of days</label>
+                <span asp-validation-for="DocRequest.StartDate"></span>
+            </div>*@
+            <div class="mb-3 mt-2">
+                <label for="formFile" class="form-label">Upload Document</label>
+                <input class="form-control" asp-for="Thumbnail" type="file" id="formFile">
+                <div class=""><span class="text-danger">*</span>(.pdf, word, text)</div>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea asp-for="DocRequest.RequestComments" id="Description" placeholder="What is the purpose of this Leave"  rows="3" class="form-control"></textarea>
+                <label for="Description" class="text-muted">Request comments</label>
+                <div class="invalid-feedback">Please provide leave request comments</div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-success"><i class="fa fa-save"></i>&nbsp;Save</button>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+            self.Tenure.subscribe(function () {
+                if (self.Principal() && self.Tenure()) {
+                    var totalInterestAmount = ((self.Principal() * interest) / 100) * self.Tenure();
+                    var amount = parseFloat(totalInterestAmount) + parseFloat(self.Principal());
+                    self.TotalAmount(amount);
+                    self.TotalAmountText(currency + ' ' + amount);
+                    var monthlyAmount = self.TotalAmount() / self.Tenure();
+                    var monthly = monthlyAmount.toFixed(2);
+                    self.MonthlyAmount(monthly);
+                    self.MonthlyAmountText(currency + ' ' + monthly);
+                }
+            }, self);
+
+            self.canShowCalculations = ko.computed(() => {
+                return self.Principal() && self.Tenure();
+            }, self);
+        }
+    </script>
+}

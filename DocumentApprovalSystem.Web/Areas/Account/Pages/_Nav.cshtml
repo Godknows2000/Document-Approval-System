@@ -1,0 +1,34 @@
+﻿@{
+    var area = ViewContext.RouteData.Values["area"]?.ToString().ToLower();
+    var page = ViewContext.RouteData.Values["page"]?.ToString().ToLower();
+}
+
+<ul class="nav nav-pills flex-column mb-auto">
+    @if (User.IsEmployee())
+    {
+        <li class="nav-item @(area=="account" && page=="/index"?"active":"")">
+            <a asp-page="/Index" asp-area="Account" class="nav-link" aria-current="page">
+                <i class="fa fa-circle-user me-2"></i>
+                My profile
+            </a>
+        </li>
+        <li class="nav-item @(page.Contains("loans")?"active":"")">
+            <a asp-area="Application" asp-page="/Index" class="nav-link">
+                <i class="fa-solid fa-money-check-dollar me-2"></i> My Documents
+            </a>
+        </li>
+        <li class="nav-item @(page.Contains("application")?"active":"")">
+            <a asp-area="Application" asp-page="/Add" class="nav-link">
+            <i class="fa-solid fa-money-check-dollar me-2"></i> Apply for Doc Appr
+        </a>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item @(page.Contains("application")?"active":"")">
+            <a asp-area="Application" asp-page="/Index" class="nav-link">
+            <i class="fa-solid fa-money-check-dollar me-2"></i> Applied Documents Appr
+        </a>
+        </li>
+    }
+</ul>

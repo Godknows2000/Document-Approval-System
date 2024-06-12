@@ -1,0 +1,39 @@
+﻿@page
+@model LoginModel
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+        <section>
+            <div class="text-center mt-5 mb-2">
+                <img src="/images/img.png" style="height:80px; border-radius: 50% !important" />
+            </div>
+            <form method="post">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Login</h3>
+                        <hr />
+                        <div class="form-group">
+                            <label asp-for="Input.Email"></label>
+                            <input asp-for="Input.Email" class="form-control" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Input.Password"></label>
+                            <input asp-for="Input.Password" class="form-control" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <a asp-page="./ForgotPassword">Forgot your password?</a>
+                        </div>
+                    </div>
+                    <div class="card-footer text-right">
+                        <button class="btn btn-outline-primary">Log in <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
